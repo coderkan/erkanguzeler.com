@@ -9,24 +9,95 @@ and open the template in the editor.
 */
 
 html{
-    width: 100%;
+    height: 100%;
+    /*width: 100%*/
 }
 
 body{
     /*font-family: 'Roboto Mono', monospace;*/
+    min-height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 a{
-    color: #48b983;
+    color: white;
 }
 
 a:hover{
-    color: #40a776;
+    /*color: #40a776;*/
 }
 
+.fa-twitter{
+    /*padding: 10px 12px;*/
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: transparent;
+}
+
+.fa-twitter:hover{
+    color: #00aced;
+}
+
+.fa-linkedin {
+    /*padding:10px 14px;*/
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-linkedin:hover {
+    color: #0073a4;
+}
+
+.fa-medium {
+    /*padding:10px 14px;*/
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-medium:hover {
+    color: #00E66C;
+}
+
+.fa-instagram {
+    /*padding:10px 14px;*/
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-instagram:hover {
+    color:#2C6A93;
+    /*color: #115686;*/
+}
+
+.fa-github {
+    /*padding:10px 14px;*/
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-github:hover {
+    color:#040204;
+}
+
+/*instagram: #115686*/ 
+/*github color:#040204; */
 header._name{
-   
+
 }
 
 header h1 a{
@@ -45,7 +116,7 @@ li{
 a{
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: transparent;
     text-decoration: none;
 }
 
@@ -54,6 +125,5 @@ header h1{
     font-size: 50px;
     letter-spacing: 5px;
     margin: 0 0 0 4px;
+    color: white;
 }
-
-
