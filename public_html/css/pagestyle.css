@@ -10,25 +10,42 @@ and open the template in the editor.
 
 html{
     height: 100%;
-    /*width: 100%*/
 }
 
 body{
-    /*font-family: 'Roboto Mono', monospace;*/
+    font-family: 'Merriweather Sans', sans-serif;
     min-height: 100%;
-    font-family: 'Roboto', sans-serif;
 }
 
 a{
     color: white;
 }
 
-a:hover{
-    /*color: #40a776;*/
+header{
+    display: block;
+    position: relative;
+    background-color: #111;
+    color: #eee;
+    padding: 20px;
 }
 
+header h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin: 0 0 0 0px;
+    color: white;
+}
+header p{
+    text-transform: none;
+    font-size: 30px;
+    margin: 0 0 0 4px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+
 .fa-twitter{
-    /*padding: 10px 12px;*/
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -94,36 +111,28 @@ a:hover{
     color:#040204;
 }
 
-/*instagram: #115686*/ 
-/*github color:#040204; */
-header._name{
-
-}
-
-header h1 a{
-   /* color: #eee;*/
-}
-
 ul{
-    list-style-type: none;
+    /*list-style-type: none;*/
     overflow: hidden;
 }
 
 li{
     float: left;
+    display: inline-block;
 }
 
 a{
-    display: block;
-    padding: 8px;
+    padding: 4px;
     background-color: transparent;
     text-decoration: none;
 }
 
-header h1{
-    text-transform: uppercase;
-    font-size: 50px;
+@media (max-width: 500px) {
+  header h1 {
     letter-spacing: 5px;
-    margin: 0 0 0 4px;
-    color: white;
+    font-size: 40px;
+  }
+  ul{
+    display: list-item;
+  }
 }
