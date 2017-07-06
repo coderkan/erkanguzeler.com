@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2017, 6:22:26 PM
+    Author     : coderkan
+*/
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    min-height: 100%;
+}
+
+a{
+    color: white;
+}
+
+header{
+    display: block;
+    position: relative;
+    background-color: #111;
+    color: #eee;
+    padding: 20px;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin: 0 0 0 0px;
+    color: white;
+}
+header p{
+    text-transform: none;
+    font-size: 30px;
+    margin: 0 0 0 4px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+
+.fa-twitter{
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: transparent;
+}
+
+.fa-twitter:hover{
+    color: #00aced;
+}
+
+.fa-linkedin {
+    /*padding:10px 14px;*/
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-linkedin:hover {
+    color: #0073a4;
+}
+
+.fa-medium {
+    /*padding:10px 14px;*/
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-medium:hover {
+    color: #00E66C;
+}
+
+.fa-instagram {
+    /*padding:10px 14px;*/
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-instagram:hover {
+    color:#2C6A93;
+    /*color: #115686;*/
+}
+
+.fa-github {
+    /*padding:10px 14px;*/
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-github:hover {
+    color:#040204;
+}
+
+ul{
+    /*list-style-type: none;*/
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    display: inline-block;
+}
+
+a{
+    padding: 4px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  header h1 {
+    letter-spacing: 5px;
+    font-size: 40px;
+  }
+  ul{
+    display: list-item;
+  }
+}
